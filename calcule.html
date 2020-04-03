@@ -1,0 +1,139 @@
+<head>
+	<script type="text/javascript">
+	//<![CDATA[
+	function cout_mois(nbr) {  	   
+		var f=0;
+		
+		for (let i = 0; i < nbr; i++  ) {  
+			f= f + 0.5
+			
+			} 
+		f= f * 30.5
+		return f;
+	}
+	function cout_an(nbr) {  	   
+		var g=0;
+		
+		for (let i = 0; i < nbr; i++  ) {  
+			g= g + 0.5
+			
+			} 
+		g= g * 30.5
+		g= g* 12
+		return g;
+	}
+	function cout_boire(nbr_verre,coup_moyen) {  	   
+		var a=0;
+		a=nbr_verre*coup_moyen
+		a*52
+		
+		a=a*52
+		return a;
+	}
+	
+	//]]>
+	</script>
+
+
+
+
+   <meta charset="utf-8">
+	<link rel="stylesheet" media="screen" href="Index.css">
+	<title>
+			Quelque calcule
+	</title>
+	<link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"></head>
+	<body>
+<header>
+	<div class="banniere">
+	
+	<h1> 
+	Quelque calcule
+	</h1>
+	
+	</div>
+</header>
+
+<nav>
+	<div class="logo">
+	   <img src="logo.png" alt="logo_addcition" height="100" width="130">
+	</div>
+	
+	<h3>Sommaire :</h3> 
+    <ul>
+		<li><a href="Index.html">Accueil</a></li>
+		<li><a href="Histoire.html">Histoire</a></li>
+		<li><a href="Actualitee.html">Actualitée</a></li>
+		<li><a href="Effets.html">Effets sur la santé, sur l'économie, sur la société</a></li>
+		<li><a href="Addiction.html">Faire face a l'addiction</a></li>
+	</ul>
+	<h3>Pour aller plus loin :</h3> 
+	<ul>
+		
+		<li><a href="Aide.html">Pour vous aidez</a></li>
+		<li><a href="f_qcm.php">Quiz</a></li>
+		<li><a href="Propos.html">A propos</a></li>
+	</ul>
+</nav>
+
+<section>
+
+	<h2>Cout de l'adicction</h2> 
+	
+		Calcule cout par mois cigarette:<br/>
+			<form action="exos_js.html">
+				Nbr de cigarrete par jour: <input type="number" min="0" max="100" size="2" name="nbr" /><br />
+					<input type="button" value="Calculer" 
+					       onclick="alert('Soit pret de ' + cout_mois(nbr.value)+ ' € par mois. '+ 'Soit '+ cout_an(nbr.value)+ ' € par an.');"  />
+			</form>
+			
+			
+		Calcule cout par mois alcool :<br/>
+			<form action="exos_js.html">
+				Nbr de verre par semaine: <input type="number" min="0" max="100" size="2" name="nbr_verre" /><br />
+				Cout moyen: <input type="number" min="0" max="100" size="2" name="coup_moyen" /><br />
+					<input type="button" value="Calculer" 
+					       onclick="alert('Soit pret de ' + cout_boire(coup_moyen.value,nbr_verre.value)+ ' € par an. ');"  />
+			</form>
+	
+	
+	
+		
+		
+	
+	
+
+
+<h1>Calculatrice</h1>
+                </div>
+    <div style="text-align:center;">
+ 
+        <form name="formulaire" method="post" action="coup.php">
+            <p>Cout du premier:<input name="nombre1" type="text" ></p>
+            <p>Cout du deuxieme:<input name="nombre2" type="text" ></p>
+ 
+    <select name="choix">
+        <option value="addition">+</option>
+        <option value="soustraction">-</option>
+        <option value="division">/</option>
+        <option value="multiplication">*</option>
+    </select>
+  
+        <input type="submit" value="calculer">
+        <input type="reset" value="effacer"><br>
+ 
+        </form>
+</div>
+
+</section>
+
+
+<footer>Copyrigh © : PERRINr
+  <p>
+	   <img src="html5Valid.png" alt="Valid html5" height="31" width="88">
+  </p>
+</footer>   
+
+
+</body>
+</html>

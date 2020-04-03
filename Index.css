@@ -1,0 +1,76 @@
+nav {
+   float:left;
+	width:220px;
+	margin:5px;
+	font-size:90%;
+}
+
+nav,p {
+	font-family: gadugi
+}
+	
+body {
+	border:1px solid gray;
+	}
+footer {
+	color:white;
+	background-color:gray;
+	}
+footer {
+	clear:left; 
+	}
+
+.logo {
+	display: block;
+    margin-left: 25;
+}	
+
+.image {
+	text-align: center;
+}
+
+.image-cigarete {
+	float:right;
+	margin:5px;
+}
+
+.image-alcool {
+	
+	margin:5px;
+	float:left;
+}
+.banniere {
+	color:white;
+	height: 14%; 
+	width: 98.33%; 
+	background-image : url(baner1.jpg);
+	background-repeat: repeat
+	margin-left:200px;
+	padding:1em;
+	text-align: center;
+}
+
+.blague {
+	text-align: center;
+}
+	
+.Background {
+	background-image:linear-gradient(40deg,green,30%, white); 
+}	
+
+p {
+  text-align: justify;
+}
+
+
+section {
+   margin-left:220px;
+	border-left:1px solid gray;
+	padding:1em;
+}
+
+
+	}
+table, td {
+	border: solid 1px black;
+	}
