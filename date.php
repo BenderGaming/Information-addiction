@@ -1,4 +1,8 @@
 <?php
-echo date('d/m/Y H:i:s', time());
 
+
+date_default_timezone_set('Europe/Paris');
+
+
+echo date('Y-m-d H:i:s');
 ?>
