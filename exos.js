@@ -10,7 +10,7 @@ function enchereNew(nom,euros) {
 /**************************************************************************************************/
 	// Variables globales :
 	var p = 0; 				// no de la photo courante
-	var nbPhotos = 5; 	// nombre de photos dans le dossier 
+	var nbPhotos = 6; 	// nombre de photos dans le dossier 
 	
 	function changerVue(){
 		p = (p+1) % nbPhotos ; // on "avance" d'un la photo courante
