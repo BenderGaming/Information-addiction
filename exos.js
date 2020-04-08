@@ -18,3 +18,5 @@ function enchereNew(nom,euros) {
 		// document.vue.src = "images/photo" + p + ".jpg"; // même résultat
 	}
 /**************************************************************************************************/
+
+

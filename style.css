@@ -1,0 +1,118 @@
+/* CSS Document */
+body { 	margin:0 auto 0 auto; padding:0;
+		 text-align:justify;background-color:#3F3430;
+		font-family: 'Dosis', sans-serif;
+		font-size:15px;  color:#41352f; /* #4e3f38;*/
+		background-image:url(design/fond-body.jpg);
+		background-position:top center;
+		background-repeat:no-repeat;
+		}	
+#menu {
+	text-align:center;
+}	
+
+/* Menu Bar */
+div#menu { width:990px; height:auto; margin:0 auto 0 auto; padding:0; }
+div#menu a.lien_cour { float:left; height:auto; margin:0 auto 0 auto; padding:0 0 2px 0; 
+			font-size:16px; font-weight:300; text-decoration:none; display:block; 
+			}
+div#menu a.lien_norm { float:left; height:auto; margin:0 auto 0 auto; padding:0 0 2px 0; 
+			font-size:16px; font-weight:300; text-decoration:none; display:block; 
+			border-top:0.1px solid; border-bottom:0.1px solid; border-left:1px solid;
+			}
+			
+			/* couleur et taille menu */
+div#menu a.index_cour { background-color:#231f20; color:#cc9933; }
+div#menu a.index_norm { background-color:#cc9933; color:#231f20; }
+div#menu a.index_norm:hover { background-color:#231f20; color:#cc9933; }
+
+div#menu a.first { width:198px; border-left:0px }
+div#menu a.other{ width:197px; border-left:1px solid #231f20; }
+
+
+
+
+.banniere {
+	color:white;
+	height: 14%; 
+	width: 100%; 
+	background-image : url(baniere3.jpg);
+	background-repeat: repeat
+	margin-left:1px;
+	padding:1em;
+	text-align: center;
+}
+
+.titre {
+	color:white;
+	text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;
+}
+
+p {
+	
+	font-family: gadugi
+	color:#FFFFFF;
+}
+	
+
+footer {
+	color:white;
+	background-color:gray;
+	}
+footer {
+	clear:left; 
+	}
+
+
+.image {
+	text-align: center;
+}
+
+.image-cigarete {
+	float:right;
+	margin:5px;
+	padding:5;
+}
+
+.image-alcool {
+	
+	margin:5px;
+	float:left;
+	padding:5;	
+}
+
+
+.blague {
+	text-align: center;
+}
+	
+
+p {
+  text-align: justify;
+}
+
+	}
+table, td , th{
+	border: solid 1px black;
+	}
+	
+table {
+border: medium solid #000000;
+width: 50%;
+}
+td, th {
+border: thin solid #6495ed;
+width: 50%;
+}
+
+#scroll_to_top { 
+  position: fixed; 
+  width: 25px; 
+  height: 25px; 
+  bottom: 50px; 
+  right: 30px; 
+} 
+#scroll_to_top img { 
+  width: 25px; 
+}
+	

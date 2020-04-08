@@ -1,44 +1,46 @@
 <head>
    <meta charset="utf-8">
-	<link rel="stylesheet" media="screen" href="Index.css">
+	<link rel="stylesheet" media="screen" href="style.css">
 	<title>
 			Histoire
 	</title>
 	<link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"></head>
-	<body>
-<header>
-	<div class="banniere">
-	
-	<h1> 
-	Histoire
-	</h1>
-	
-	</div>
+
+<header style="position:relative; height:300px">
+   <div style="position:absolute;z-index:1">
+      <img src="baniere2.jpg" height="280" width="1903" align="center">
+   </div>
+   <div style="position:absolute;top:140px; width:1900px; z-index:2;font-size:200%">
+      <center class="titre"><b> Histoire </b></center>
+    </div> 
 </header>
 
-<nav>
-	<div class="logo">
-	   <img src="logo.png" alt="logo_addcition" height="100" width="130">
-	</div>
+<div id="menu">
 	
-	<h3>Sommaire :</h3> 
-    <ul>
-		<li><a href="Index.html">Accueil</a></li>
-		<li><a href="Actualitee.html">Actualitée</a></li>
-		<li><a href="Effets.html">Effets sur la santé, sur l'économie, sur la société</a></li>
-		<li><a href="Addiction.html">Faire face a l'addiction</a></li>
-	</ul>
-	<h3>Pour aller plus loin :</h3> 
-	<ul>
-		
-		<li><a href="Aide.html">Pour vous aidez</a></li>
-		<li><a href="calcule.html">Deux ou trois calcule</a></li>
-		<li><a href="f_qcm.php">Quiz</a></li>
-		<li><a href="Propos.html">A propos</a></li>
-	</ul>
-</nav>
+
+	<a href="Index.html" class="lien_norm index_norm other">Accueil</a>
+	<a href="Histoire.html"class="lien_cour index_cour first">Histoire</a>
+	<a href="Actualitee.html"class="lien_norm index_norm other">Actualitée</a>
+	<a href="Effets.html"class="lien_norm index_norm other">Effets</a>
+	<a href="f_qcm.php"class="lien_norm index_norm other">Quiz</a>
+
+
+	<a href="Aide.html"class="lien_norm index_norm other">Aide</a>
+	<a href="Addiction.html"class="lien_norm index_norm other">Faire face a l'addiction</a>
+	<a href="calcule.html"class="lien_norm index_norm other">Deux ou trois calcule</a>
+	
+	<a href="Propos.html"class="lien_norm index_norm other">A propos</a>
+	<a href="Date.php"class="lien_norm index_norm other">Date du jour</a>
+	
+</div>
 
 <section>
+	</br>
+	</br>
+	</br>
+	
+	
+	<div style="width:783px; height:auto; margin:5px auto 0 auto; padding:15px; background-color:#E2DBD5;">
 	<div>
 	<h2><u>Un peu d'histoire</u></h2> 
 	<p><span STYLE="padding:0 0 0 20px;">L’étymologie du terme addiction est latine. Il vient de <em>ad-dicere</em> « dire à ». A l’époque de la
@@ -86,22 +88,26 @@ dépendance aux produits jusqu’au concept actuel élargi aux comportements pat
 	
 	<h3><u>Pays ou le canabis est plus ou moins légale</u></h3> 
 	<map name="MaCarte"> 
-    <area shape="rect" href="https://www.canada.ca/fr/sante-canada/services/drogues-medicaments/cannabis/lois-reglementation.html"  coords="82,43,280,160"  alt="canada"/> 
-    <area shape="rect" href="https://fr.wikipedia.org/wiki/Cannabis_en_Uruguay"  coords="314,353,332,371" alt="Urugay" /> 
-	<area shape="rect" href="https://fr.wikipedia.org/wiki/Cannabis_en_Cor%C3%A9e_du_Nord"  coords="791,161,818,180"  alt="corée du nord"/> 
-    <area shape="rect" href="https://fr.wikipedia.org/wiki/Cannabis_en_Italie"  coords="474,134,505,164" alt="italie" /> 
+    <area shape="rect" href="https://www.canada.ca/fr/sante-canada/services/drogues-medicaments/cannabis/lois-reglementation.html"  coords="65,34,208,106"  alt="canada"/> 
+    <area shape="rect" href="https://fr.wikipedia.org/wiki/Cannabis_en_Uruguay"  coords="226,228,239,255" alt="Urugay" /> 
+	<area shape="rect" href="https://fr.wikipedia.org/wiki/Cannabis_en_Cor%C3%A9e_du_Nord"  coords="342,94,359,109"  alt="corée du nord"/> 
+    <area shape="rect" href="https://fr.wikipedia.org/wiki/Cannabis_en_Italie"  coords="566,110,579,121" alt="italie" /> 
 	</map> 
-	<img src="terre.jpg" usemap="#MaCarte" alt="planis"/>
+	<img src="terre.jpg" height="300" width="700" usemap="#MaCarte" alt="planis"/align="center">
 	</p>
 	
-	
-	<div>
+
+<img src="tableau.png" alt="cigarete" height="300" width="700" align="center">
+
+<!-- <p>	
+Cela ne marche pas quand le site est en ligne donc je met une photo du rendu a la place
+<div>
 	
 		<h2><u>Quelque pays</u></h2> 
 		<table>
    <caption>Legalisation du canabis</caption>
 
-   <thead> <!-- En-tête du tableau -->
+   <thead>
        <tr>
            <th>Pays</th>
            <th>Legale ou non</th>
@@ -109,7 +115,7 @@ dépendance aux produits jusqu’au concept actuel élargi aux comportements pat
        </tr>
    </thead>
 
-   <tbody> <!-- Corps du tableau -->
+   <tbody>
        <tr>
            <td>Canada</td>
            <td>Legale</td>
@@ -141,9 +147,10 @@ dépendance aux produits jusqu’au concept actuel élargi aux comportements pat
            <td>18 septembre 2018</td>
        </tr>
    </tbody>
-</table>
+</table> 
+</p> -->
 		
-	</div></li>
+	
 	<li>
 	<h1><strong><u> Alcool </u></strong></h1>
 	<p>
@@ -173,16 +180,18 @@ dépendance aux produits jusqu’au concept actuel élargi aux comportements pat
 	</p>
 	</li>
 	</ol>
-</section>
 
 
 
 <footer>Copyrigh © : PERRINr
+<div id="scroll_to_top"> 
+    <a href="#top"><img src="to_top.png" alt="Retourner en haut" /></a> 
+</div>
   <p>
 	   <img src="html5Valid.png" alt="Valid html5" height="31" width="88">
   </p>
 </footer>   
 
-
+</section>
 </body>
 </html>
